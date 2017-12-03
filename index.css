@@ -18,4 +18,14 @@ img {
 	margin-top: 10px;
 }
 
+.css-result-title:focus {
+	color: red;
+}
+
+.css-query:focus {
+	border-color: red;
+	border-style: dashed;
+	border-width: 10px;
+}
+
 

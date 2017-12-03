@@ -14,11 +14,11 @@
 	<header role="banner">
 		<h1>Thinkful Tube</h1>
 	</header>
-	<main role="main">
+	<main role="main" aria-live="assertive">
 		<h2>What would you like to watch?</h2>
 		<form action="#" class="js-search-form" >
 			<label for="js-query"></label>
-			<input type="text" name="js-query" id="js-query" class="js-query">
+			<input type="text" name="js-query" id="js-query" class="js-query css-query" aria-label="Input YouTube search criteria">
 			<button type="submit">Search</button>
 			
 		</form>
